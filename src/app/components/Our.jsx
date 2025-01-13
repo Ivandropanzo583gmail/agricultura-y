@@ -8,7 +8,7 @@ const values = [
   
   const ValuesSection = () => {
     return (
-      <div className="flex justify-center space-x-8 mt-8 md:text-6xl text-2xl font-bold max-md:space-x-1">
+      <div className="flex justify-center space-x-8 mt-8 md:text-6xl text-xl font-bold max-md:space-x-1">
         {values.map((item, index) => (
           <span key={index} className={item.color } >
             {item.value}
