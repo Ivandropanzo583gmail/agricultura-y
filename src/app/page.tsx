@@ -17,7 +17,7 @@ export default function Home() {
       <Our_Products />
       <ValuesSection />
       <Citacion />
-      < PartnersSection />
+      <PartnersSection />
       <SignUpSection />
       <FeedbackAndFAQSection />
       <Footer />

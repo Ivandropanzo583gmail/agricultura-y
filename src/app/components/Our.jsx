@@ -1,4 +1,4 @@
-// components/ValuesSection.js
+
 
 const values = [
     { value: '200,000.00', color: 'text-green-600' },

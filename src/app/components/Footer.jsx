@@ -20,9 +20,9 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Links */}
+    
       <div className="grid md:grid-cols-4 gap-8 text-center md:text-left">
-        {/* AgriCargas */}
+       
         <div>
           <h4 className="font-semibold text-green-600">AgriCargas</h4>
           <p className="text-gray-600 mb-4">
@@ -32,7 +32,7 @@ const Footer = () => {
           <p className="text-gray-600">agricargas@co.ao</p>
         </div>
 
-        {/* Informations */}
+      
         <div>
           <h4 className="font-semibold text-green-600">Informations</h4>
           <ul className="text-gray-600 space-y-2">
@@ -43,7 +43,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Quick Links */}
+ 
         <div>
           <h4 className="font-semibold text-green-600">Quick Links</h4>
           <ul className="text-gray-600 space-y-2">
@@ -52,7 +52,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Create an Account */}
+       
         <div>
           <h4 className="font-semibold text-green-600">Create an Account</h4>
           <p className="text-gray-600 mb-4">
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Bottom */}
+     
       <div className="mt-10 text-center text-gray-500">
         <p>&copy;2022 | AgriCargas. All rights reserved</p>
         <div className="space-x-4">

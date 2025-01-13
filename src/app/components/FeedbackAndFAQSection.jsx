@@ -4,10 +4,10 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 
 const FeedbackAndFAQSection = () => {
-  // Estado para controlar o FAQ ativo
+
   const [activeFAQ, setActiveFAQ] = useState(null);
 
-  // Função para alternar a pergunta ativa
+ 
   const toggleFAQ = (index) => {
     setActiveFAQ(activeFAQ === index ? null : index);
   };
@@ -22,7 +22,7 @@ const FeedbackAndFAQSection = () => {
             {
               name: 'Ana Carolina',
               feedback: 'Use our built-in analytics dashboard to pull valuable insights and monitor .',
-              image: '/Feedback/Ana.png', // Substituir com o caminho da imagem
+              image: '/Feedback/Ana.png',
             },
             {
               name: 'Benjamin Maiato',
@@ -54,7 +54,7 @@ const FeedbackAndFAQSection = () => {
         </div>
       </div>
 
-      {/* FAQ Section */}
+     
       <div className=" mb-8" id='FAQ'>
         <h2 className="text-green-700 font-bold text-lg uppercase mb-4">06 • FAQ</h2>
         <h3 className="text-3xl font-bold text-gray-800 mb-6">Frequently Asked Questions</h3>

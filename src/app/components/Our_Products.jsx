@@ -1,4 +1,4 @@
-// components/FruitSection.js
+
 
 import Image from 'next/image';
 
@@ -9,7 +9,7 @@ const Our_Products = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 p-4">
                
             
-            {/* Apple */}
+       
             <div className="relative bg-white p-4 rounded-lg shadow mt-10">
                 <h3 className="text-sm font-medium mb-2">We import</h3>
                 <h2 className="text-lg font-semibold text-green-600">Apple</h2>
@@ -25,7 +25,7 @@ const Our_Products = () => {
                 </div>
             </div>
 
-            {/* Papaya */}
+           
             <div className="relative bg-gray-800 text-white p-4 rounded-lg shadow">
                 <h3 className="text-sm font-medium mb-2">We import</h3>
                 <h2 className="text-lg font-semibold">Papaya</h2>
@@ -34,14 +34,14 @@ const Our_Products = () => {
                 <Image
                     src="/Our_Products/papaia.png"
                     alt="Papaya"
-                    width={250}  // Tamanho personalizado para Papaya
-                    height={250} // Tamanho personalizado para Papaya
+                    width={250}  
+                    height={250} 
                     className="rounded-md"
                 />
                 </div>
             </div>
 
-            {/* Passion Fruit */}
+         
             <div className="relative bg-white p-4 rounded-lg shadow">
                 <h3 className="text-sm font-medium mb-2">We import</h3>
                 <h2 className="text-lg font-semibold text-green-600">Passion fruit</h2>
@@ -57,7 +57,6 @@ const Our_Products = () => {
                 </div>
             </div>
 
-            {/* Ananas */}
             <div className="relative bg-gray-800 text-white p-4 rounded-lg shadow">
                 <h3 className="text-sm font-medium mb-2">We import</h3>
                 <h2 className="text-lg font-semibold">Ananas</h2>
@@ -73,7 +72,7 @@ const Our_Products = () => {
                 </div>
             </div>
 
-            {/* Mango */}
+          
             <div className="relative bg-white p-4 rounded-lg shadow">
                 <h3 className="text-sm font-medium mb-2">We import</h3>
                 <h2 className="text-lg font-semibold text-green-600">Mango</h2>
@@ -89,7 +88,7 @@ const Our_Products = () => {
                 </div>
             </div>
 
-            {/* Others */}
+           
             <div className="relative bg-gray-800 text-white p-4 rounded-lg shadow" id='Other'>
                 <h3 className="text-sm font-medium mb-2">We import</h3>
                 <h2 className="text-lg font-semibold">Others</h2>

@@ -6,7 +6,7 @@ const SignUpSection = () => {
   return (
     <section className="relative w-full h-screen flex items-center justify-center bg-green-200 max-md:hidden mt-20 bg-cover bg-center" id='Subs' style={{ backgroundImage: "url('/Subscrever/Subs.png')" }}>
      
-      {/* Card de Inscrição */}
+     
       <div className="relative z-10 bg-green-500 p-8 rounded-lg max-w-md text-white shadow-lg mb-96 ">
         <h4 className="text-sm font-semibold">Subscriber</h4>
         <h2 className="text-2xl font-bold mt-2">Sign up as our partner and start selling</h2>
